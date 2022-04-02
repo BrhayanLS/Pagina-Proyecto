@@ -1,0 +1,13 @@
+body {
+    background-color: #90CAF9;
+}
+.bg--logo {
+    background: #42A5F5;
+}
+.perfil {
+    display: inline;
+}
+.productos {
+	text-align: left;
+	justify-content: center !important;
+}
