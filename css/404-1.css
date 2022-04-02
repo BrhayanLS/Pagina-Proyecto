@@ -1,0 +1,27 @@
+body {
+	background-color: #e8c06f;
+}
+
+.img {
+	position: absolute;
+	z-index: -1;
+	top: 20vh;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text {
+	position: relative;
+	font-size: 4vw;
+	padding: 1vw;
+	font-family: 'Código Fuente de Pro', monospace;
+	font-weight: 900;
+	-webkit-text-stroke:  1px #fff;
+ 	text-align: left;
+}
+.text > h1 {
+	font-size: 9vw;
+	font-family: 'Código Fuente de Pro', monospace;
+
+}
