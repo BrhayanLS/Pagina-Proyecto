@@ -8,3 +8,12 @@ body {
 .bg--logo {
     background: #42A5F5;
 }
+.tex--img{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 900;
+    position: relative;
+    text-align: left;
+}
