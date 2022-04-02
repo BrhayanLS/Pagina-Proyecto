@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,108 +8,134 @@
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/produccionindex.css">
 </head>
+
 <body>
 	<header>
 		<div class="container-fluid">
 			<nav class="navbar navbar-light bg--logo">
- 				<div class="container">
-    				<a class="navbar-brand" href="#">
-      				<img src="../img/system.png" alt="" width="100" height="80" class="d-inline-block align-text-top">System Information Paralon
-      				</a>
-  					<a href="">
-  						<img src="../img/user-perfil.png" alt="" width="100" height="80" class="perfil">
-  					</a>
-  				</div>
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img src="../img/system.png" alt="" width="100" height="80"
+							class="d-inline-block align-text-top">System Information Paralon
+					</a>
+					<a href="">
+						<img src="../img/user-perfil.png" alt="" width="100" height="80" class="perfil">
+					</a>
+				</div>
 			</nav>
 
 			<ul class="nav justify-content-center my-2">
-  				<li class="nav-item">
-   				 <a class="nav-link" aria-current="page" href="#">Resgistar</a>
- 				</li>
- 				<li class="nav-item">
- 				   <a class="nav-link" href="#">Historial</a>
- 				</li>
- 				<li class="nav-item">
- 				   <a class="nav-link" href="#">Calendario</a>
- 				</li>
- 				<li class="nav-item">
- 				   <a class="nav-link" href="#">GAES</a>
- 				</li>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="#">Resgistar</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Historial</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Calendario</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">GAES</a>
+				</li>
 			</ul>
- 		</div>
+		</div>
 	</header>
 
-	<div class="container">	
-		<section>
-			<article>
-				<div class="container">
-				<di	v class="row align-items-start">
-	  			  	<div class="col">
-	  			    	<img src="">
-	  			  	</div>
-	   			 	<div class="col">
-	  			   	 	<img src="">
-	   			 	</div>
-			</article>
-		</section>
-	</div>
+	<section>
+		<div class="container">
+			<hr>
+		</div>
+	</section>
+
+	<section>
+		<div class="container section--1">
+			<div class="row align-items-start">
+				<div class="col-6">
+					<img src="../img/calendario.jpg" class="img-fluid">
+				</div>
+				<div class="col-6 sec1--col2">
+					<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+						class="scrollspy-example" tabindex="0">
+						<h1 class="col-8">Listado de pedidos</h1>
+						<a href="#" class="col-4">Mostar mas</a>
+						<h4 id="list-item-1">Producto 1</h4>
+						<p>Clente: Arroz.inc Id Cliente: c-215896<br>
+							Total: 536.000 Fecha entrega: 22/05/2023
+						</p>
+						<h4 id="list-item-2">Producto 2</h4>
+						<p>Clente: Finca.inc Id Cliente: c-215496<br>
+							Total: 689.000 Fecha entrega: 22/05/2023</p>
+						<h4 id="list-item-3">Producto 3</h4>
+						<p>Clente: Tunja.inc Id Cliente: c-215716<br>
+							Total: 784.000 Fecha entrega: 22/05/2023</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<div class="container">
 		<section>
-			<article>
-				<table class="table table-dark table-striped">
-					  <thead>
-					    <tr>
-					      <th scope="col">#</th>
-					      <th scope="col">First</th>
-					      <th scope="col">Last</th>
-					      <th scope="col">Handle</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					    <tr>
-					      <th scope="row">1</th>
-					      <td>Mark</td>
-					      <td>Otto</td>
-					      <td>@mdo</td>
-					    </tr>
-					    <tr>
-					      <th scope="row">2</th>
-					      <td>Jacob</td>
-					      <td>Thornton</td>
-					      <td>@fat</td>
-					    </tr>
-					    <tr>
-					      <th scope="row">3</th>
-					      <td colspan="2">Larry the Bird</td>
-					      <td>@twitter</td>
-					    </tr>
-					  </tbody>
-					</table>
-			</article>
+			<table class="table table-dark table-striped">
+				<thead>
+					<tr>
+						<th scope="col">Nº</th>
+						<th scope="col">Cliente</th>
+						<th scope="col">ID pedido</th>
+						<th scope="col">Materia prima</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Arroz.inc</td>
+						<td>54862</td>
+						<td>Espuma: 22 - Algodon: 10
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Tunja.inc</td>
+						<td>54896</td>
+						<td>Espuma: 30 - Algodon: 10
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Finca.inc</td>
+						<td>56238</td>
+						<td>Espuma: 45 - Algodon: 15
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</section>
 	</div>
 
 	<div class="container">
 		<footer>
 			<div class="row align-items-start">
-  			  	<div class="col">
-  			    	<h6 class="text-uppercase fw-bold">Contact</h6>
-  			    	<p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-		            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-		            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-		            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-  			  	</div>
-   			 	<div class="col">
-  			   	 	<h6 class="text-uppercase fw-bold">Contact</h6>
-  			   	 	<a href=""><img src="../img/instagram.png"></a>
-  			   	 	<a href=""><img src="../img/whatsapp.png"></a>
-  			   	 	<a href=""><img src="../img/facebook.png"></a>
-  			   	 </font></p>
-   			 	</div>
-   			 	<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    				© 2020 Copyright
-  				</div>
+				<div class="col">
+					<h6 class="text-uppercase fw-bold">Contact</h6>
+					<p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+					<p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+					<p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+					<p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+				</div>
+				<div class="col">
+					<h6 class="text-uppercase fw-bold">Contact</h6>
+					<a href=""><img src="../img/instagram.png"></a>
+					<a href=""><img src="../img/whatsapp.png"></a>
+					<a href=""><img src="../img/facebook.png"></a>
+					</p>
+				</div>
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+					© 2020 Copyright
+				</div>
 		</footer>
 </body>
+
 </html>
