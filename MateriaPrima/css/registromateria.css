@@ -1,0 +1,118 @@
+body {
+    background-color: #e9ecef;
+    
+}
+footer{
+    background:#33b6d0 ;
+     border-top: 2px solid black;
+     text-align: center;
+
+}
+nav{
+
+    border-bottom: 2px solid black;
+    background: #33b6d0 ;
+}
+nav ul{
+
+    list-style: none;
+    display:  flex;
+    justify-content: center;
+}
+nav ul li a{
+    margin-top: 6px;
+    text-decoration: none;
+    color: #001219;
+    padding:  6px 20px;
+    display: block;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+nav ul li a:hover{
+    background: #FF1D25;
+    color:  #F0F8FF;
+}
+
+.bg--logo {
+    background: #33b6d0;
+     border-bottom: 2px solid black;
+
+}
+
+.tex--img{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 1000;
+    font-size: 1000;
+    position: relative;
+    text-align: left;
+}
+
+
+.img--fo{
+    width: 4vw;
+    margin: 3vw 3vw;
+}
+
+/*Formulario*/
+h1{
+    text-align: center;
+    
+}
+
+form{
+    width: 100%;
+   
+    max-width: 500px;
+    background: #33b6d0 ;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px; 
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+
+.espaciosT{
+    
+    width: 100%;    
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    
+    border: 1px solid #1d3557;  
+    font-size: 18px;
+    color: #adb5bd;
+
+}
+
+.espaciosT12{
+
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1d3557;  
+    font-size: 18px;
+    margin-left: 10px;
+}   
+.espaciosT2{
+    width: 100%;    
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    border: 1px solid #1d3557;  
+    font-size: 18px;
+}
+
+.btn{
+    width: 30%;
+    margin-top: 1px;
+    border-radius: 5px ;
+    margin-left: 10px;
+    height: 5%;
+    background: #a9d6e5;
+    color: black;
+
+}

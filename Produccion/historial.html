@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Produccion</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/produccionindex.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@700&family=Source+Code+Pro:ital,wght@1,300&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+			<nav class="navbar navbar-light bg--logo">
+				<div class="container">
+					<a class="navbar-brand" href="produccionindex.html">
+						<img src="../img/system.png" alt=" " width="100" height="80"class="d-inline-block align-text-top tex--img">
+					</a>
+					<div>
+						<p class="text-left tex--img">System Information Paralon</p>
+					</div>
+					<a href="#">
+						<button>Cerrar Sesion</button>
+					</a>
+				</div>
+			</nav>
+
+			<ul class="nav justify-content-center my-2">
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="formulario.html">Resgistar</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="historial.html">Historial</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="lista-materia-prima.html">Registrar Materias Primas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">GAES</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<hr>
+		</div>
+	</section>
+
+	<div class="container my-2">
+		<form>
+			<div class="row">
+				<div class="col-4 my-2">
+					<label>Desde</label>
+					<input type="date" name="" class="my-2">
+					<br>
+					<label>Hasta  </label>
+					<input type="date" name="" class="my-2">
+				</div>
+				<div class="col-3 my-2">
+					<label>Cliente</label>
+					<input type="text" name="">
+				</div>
+				<div class="col-3 my-2">
+					<label>ID pedido</label>
+					<input type="number" name="">
+				</div>
+				<div class="col-2 align-middle my-4">
+					<input type="submit" value="Filtrar">
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div class="container">
+		<section>
+			<table class="table table-dark table-striped">
+				<thead>
+					<tr>
+						<th scope="col">Nº</th>
+						<th scope="col">Cliente</th>
+						<th scope="col">ID pedido</th>
+						<th scope="col">Fecha</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Arroz.inc</td>
+						<td>54862</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Tunja.inc</td>
+						<td>54896</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Finca.inc</td>
+						<td>56238</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Jamec.sas</td>
+						<td>56738</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Motors</td>
+						<td>56231</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Hacienda.ltda</td>
+						<td>59238</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Almohadas.SAS</td>
+						<td>56488</td>
+						<td>05/04/2022
+							<a href="#">Ver Mas</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</div>
+
+	<div class="container">
+		<footer>
+			<div class="row align-items-start p-3 my-2 bg--footer">
+				<div class="col-6">
+					<h6 class="text-uppercase fw-bold">Contato</h6>
+					<p><i class="fas fa-home mr-3"></i>Vía Funza - Siberia Km3, Parque Industrial Galicia, Bodega 9
+						Manzana E Bogotá, Colombia.</p>
+					<p><i class="fas fa-envelope mr-3"></i>info@paralon.com.co</p>
+					<p><i class="fas fa-phone mr-3"></i>+57 821.90.55 </p>
+					<p><i class="fas fa-print mr-3"></i>+57 821.90.54 </p>
+				</div>
+				<div class="col-6">
+					<h6 class="text-uppercase fw-bold">Redes Sociales</h6>
+					<a href="#">
+						<img src="../img/instagram.png" class="img--fo">
+					</a>
+					<a href="#">
+						<img src="../img/whatsapp.png" class="img--fo">
+					</a>
+					<a href="#">
+						<img src="../img/facebook.png" class="img--fo">
+					</a>
+				</div>
+				<div class="text-center">
+					<p>© 2020 Copyright</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	</body>
+</html>

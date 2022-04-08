@@ -1,0 +1,148 @@
+body {
+    background-color: #e9ecef;
+    
+}
+footer{
+    background:#33b6d0 ;
+
+}
+section{
+    background: #e9ecef;
+    padding-bottom: 10px;
+    text-align: center;
+}
+section a{
+   padding: 5px;
+
+}
+section a:hover{
+   background: #c0fdff;
+   color: black;
+}
+.bg--logo {
+    background: #33b6d0;
+     border-bottom: 2px solid black;
+
+}
+
+.tex--img{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 1000;
+    font-size: 1000;
+    position: relative;
+    text-align: left;
+}
+
+
+.img--fo{
+    width: 2vw;
+    margin: 2vw 3vw;
+}
+.container{
+    width: 60%;
+    height: 150px;
+    background: #a7dae2;
+    
+   
+}
+.container.col-6{
+    width: 70%;
+    height: auto;
+    background: #bee7ee ;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.button-p1{
+
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+     margin:2% auto;
+     margin-left: 10px;
+     margin: 0 3px;
+     border-bottom: 2px solid black;
+     
+    
+}
+div span {
+     font-weight: 200;
+}
+
+h1{
+     font-weight: 200;
+}
+
+
+i{
+    color: #232752;
+}
+
+.login_box{
+    margin-left: 33%;
+    background: #90e0ef; 
+    background: linear-gradient(45deg,  #232752 5%,#BBDEFB 99%)*/; /* W3C */
+    width:35%;
+
+}
+
+@media (max-width: 767px) {
+    .login_box{
+      
+        width:90%;
+        height:80%;
+        position:absolute;
+        top:10%;
+        left:5%;
+box-shadow:  0px 0px 20px 10px rgba(50, 50, 50, 0.54);
+    }
+}
+
+.image-circle{
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    border: 4px solid #FFF;
+    margin: 10px;
+}
+
+
+.login_control{
+    background-color:#FFF;
+    padding:10px;
+    
+}
+
+.control {
+    color:#000;
+    margin:10px;
+}
+
+.btn-orange{
+    background-color:  #90e0ef;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+    color: black;
+}
+
+/*.btn-orange:hover {
+    background-color: #232752;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: inherit;
+    color:#FFF !important;
+}
+*/

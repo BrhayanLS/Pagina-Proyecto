@@ -1,0 +1,34 @@
+body {
+    background-color: #90CAF9;
+}
+.bg--logo {
+    background: #42A5F5;
+}
+.perfil {
+    display: inline;
+}
+.productos {
+	text-align: left;
+	justify-content: center !important;
+}
+.img--fo{
+    width: 5vw;
+    margin: 2vw 3vw;
+}
+.tex--img{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 900;
+    position: relative;
+    text-align: left;
+}
+.form-1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.bg--footer {
+    background-color: #00000033;
+}

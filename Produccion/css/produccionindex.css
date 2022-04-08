@@ -1,0 +1,60 @@
+body {
+    background-color: #90CAF9;
+}
+.bg--logo {
+    background: #42A5F5;
+}
+.perfil {
+    display: inline;
+}
+.tex--img{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 900;
+    position: relative;
+    text-align: left;
+}
+.section--1{
+    margin-top: 1rem;
+}
+.sec1--col2{
+    position: relative ¡important;
+     overflow-y: scroll;
+     height: 10em;
+}
+.notify > div{
+    border: 2px solid black;
+    margin: 1em;
+    padding: 2px;
+    border-radius: 5px;
+}
+.notify > h1{
+    width: 100%;
+}
+.img--fo{
+    width: 5vw;
+    margin: 2vw 3vw;
+}
+
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: o;
+    text-align: center;
+}
+
+.first-day{
+    grid-column-start: 7;
+}
+
+.day-name {
+    background-color: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+.bg--footer {
+    background-color: #00000033;
+}

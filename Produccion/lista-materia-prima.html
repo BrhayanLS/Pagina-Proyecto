@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Produccion</title>
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/lista-materia-prima.css">
+	<link rel="stylesheet" type="text/css" href="css/lista-materia-prima.css">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@700&family=Source+Code+Pro:ital,wght@1,300&display=swap"
 		rel="stylesheet">
@@ -20,27 +20,26 @@
 			<nav class="navbar navbar-light bg--logo">
 				<div class="container">
 					<a class="navbar-brand" href="produccionindex.html">
-						<img src="../img/system.png" alt=" " width="100" height="80"
-							class="d-inline-block align-text-top">
-						<div>
-							<p class="text-left tex--img">System Information Paralon</p>
-						</div>
+						<img src="../img/system.png" alt=" " width="100" height="80"class="d-inline-block align-text-top tex--img">
 					</a>
-					<a href="">
-						<img src="img/user-perfil.png" alt="" width="60" height="40" class="perfil">
+					<div>
+						<p class="text-left tex--img">System Information Paralon</p>
+					</div>
+					<a href="#">
+						<button>Cerrar Sesion</button>
 					</a>
 				</div>
 			</nav>
 
 			<ul class="nav justify-content-center my-2">
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="#">Resgistar</a>
+					<a class="nav-link" aria-current="page" href="formulario.html">Resgistar</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Historial</a>
+					<a class="nav-link" href="historial.html">Historial</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Registrar Materias Primas</a>
+					<a class="nav-link" href="lista-materia-prima.html">Registrar Materias Primas</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">GAES</a>
@@ -103,9 +102,9 @@
 
 	<div class="container">
 		<footer>
-			<div class="row align-items-start">
+			<div class="row align-items-start p-3 my-2 bg--footer">
 				<div class="col-6">
-					<h6 class="text-uppercase fw-bold">Contacto</h6>
+					<h6 class="text-uppercase fw-bold">Contato</h6>
 					<p><i class="fas fa-home mr-3"></i>Vía Funza - Siberia Km3, Parque Industrial Galicia, Bodega 9
 						Manzana E Bogotá, Colombia.</p>
 					<p><i class="fas fa-envelope mr-3"></i>info@paralon.com.co</p>
@@ -124,10 +123,12 @@
 						<img src="../img/facebook.png" class="img--fo">
 					</a>
 				</div>
-				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-					© 2020 Copyright
+				<div class="text-center">
+					<p>© 2020 Copyright</p>
 				</div>
+			</div>
 		</footer>
+	</div>
 </body>
 
 </html>
